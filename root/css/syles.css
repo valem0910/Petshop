@@ -267,8 +267,21 @@ body{
     padding: 10px;
 }
 
+@media (max-width: 1420px){
+    .card-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 
 @media (max-width: 680px){
+    
+    .nav2{
+        padding: 10px 10px;
+    }
+    
     .nav2-item{
         font-size: 15px;
     }
@@ -279,6 +292,51 @@ body{
         margin: 0;
         padding: 0;
     }
+
+    #hero-title{
+        font-size: 30px;
+    }
+
+    .sub1{
+        padding: 0;
+        margin: 0;
+    }
+
+    .sub1 > p{
+        font-size: 15px;
+    }
+
+    .sub2{
+        padding: 0 10px;
+        margin: 0;
+    }
+
+    .subscription-section{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .footer1{
+       flex-direction: column;
+    }
+
+    .footer1-container{
+        padding: 10px 0;
+    }
+
+    .footer-logo{
+        height: 30px;
+        padding-bottom: 10px;
+    }
+
+    .sub2 > input{
+        height: 25px;
+    }
+    
+    .sub2 > button{
+        height: 25px;
+    }
+
 }
 
 
